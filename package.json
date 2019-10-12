@@ -1,0 +1,37 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "Indecision application for React Beginners",
+  "main": "index.js",
+  "author": "Okafor Chidimma",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public",
+    "start:dev": "webpack-dev-server",
+    "build-babel-watch": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "build-webpack-watch": "webpack --watch",
+    "build-webpack-bundle": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-modal": "^3.10.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  }
+}
