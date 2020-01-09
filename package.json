@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public",
+    "start": "yarn run build-webpack-bundle",
     "start:dev": "webpack-dev-server",
     "build-babel-watch": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
     "build-webpack-watch": "webpack --watch",
